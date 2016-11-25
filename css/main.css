@@ -1,9 +1,7 @@
 /* Inserta tu codigo aqui */
 
 /* Responsive */
-*{
-	outline: 1px solid red;
-}
+
 
 body
 {
@@ -313,7 +311,7 @@ footer
   }
 }
 
-@media screen and (max-width: 600px) and (min-width: 320px)
+@media screen and (max-width: 600px) 
  {
 .container
  {
@@ -324,10 +322,11 @@ footer
  }
  @media screen and (max-width:320px )
  {
-  .lista-menu
+  .list-menu
   {
     float: right;
     display: inline-block;
-    color: white;
+  
+  
   }
  }

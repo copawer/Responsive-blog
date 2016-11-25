@@ -1,0 +1,173 @@
+/* Inserta tu codigo aqui */
+
+/* Responsive */
+*{
+	outline: 1px solid rgba(255.0.0.0.4);
+}
+.clearfix
+{
+	display: table;
+}
+body
+{
+	background:#212F3C; 
+	padding: 0;
+	margin: 0;
+
+}
+.clearfix:after
+{
+	content: ;
+	clear: both;
+}
+ header 
+ { 
+ 	padding: 10px 0;
+ }
+ .spring
+ {
+ color: #17202A;
+ }
+ section
+ {
+
+background:#212F3C ;
+ }
+ .list-menu
+ {
+    float: right;
+ 	list-style: none;
+ 	margin: 0;
+ 	padding:0;
+ }
+ .list-menu li
+ {
+ 	color: #B2BABB;
+ 	display: inline-block;
+ }
+ .list-menu li a
+ {font-family: sans-serif;
+ 	text-decoration: none;
+ 	color: #B2BABB;
+ 	display: inline-block;
+ 	padding: 15px 10px;
+ }
+ .container
+ { background-color: #212F3C;
+ 	width: 900px;
+ 	margin: 0 auto;
+ }
+ img .fondo
+ { 
+ width: 100px;
+ padding: 200px;
+  }
+
+ .container img 
+
+ {
+  background-color: #212F3C;
+     width:150px;
+ }
+
+ .col-1, .col-2, .col-3
+ {
+ 
+ 	box-sizing:border-box;
+ 	padding: 10px; 
+ }
+ .col-1
+ {
+ 	color: #FDFEFE;
+ 	width: 30%;
+ }
+ .col-1 h1
+ {
+ 	font: 320% sans-serif;
+ }
+ .col-2
+ {
+ 	width: 30%;
+ }
+ .col-3
+ {
+   width: 30%;
+ }
+ .block-form
+{
+	 text-align: center;
+    margin: 20px;
+    background-color: #B2BABB;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;    
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    opacity: 0.9;
+}
+.block-form input, block-form button
+{
+width: 100%;
+box-sizing: border-box;
+}
+button
+{ border: none;
+
+	padding: 1px 6px;
+}
+.block-form button
+{
+	background-color: #3498DB;
+}
+footer
+{
+	padding-left: 15%;
+}
+
+
+@media (max-width: 900px)
+{
+	.container
+	{
+		width: 700px
+	}
+}
+
+@media (max-width: 700px)
+{
+	.container
+	{
+		width: 100%
+	}
+	.col-1, .col-2
+	{
+		width: 100%
+	}
+	.block-form
+	{
+		margin: 0;
+	}
+}
+@media (min-width: 320px) and (max-width: 900px)
+{
+	footer
+	{
+		width: 100%;
+	}
+}
+@media (max-width: 320px)
+{
+	footer{
+		width: 100%;
+
+	}
+}
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
